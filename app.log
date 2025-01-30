@@ -1,0 +1,9 @@
+ERROR:root:Error placing order: Task <Task pending name='Task-1' coro=<AsyncToSync.main_wrap() running at /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/asgiref/sync.py:331> cb=[_run_until_complete_cb() at /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/asyncio/base_events.py:181]> got Future <Future pending cb=[_chain_future.<locals>._call_check_cancel() at /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/asyncio/futures.py:389]> attached to a different loop
+INFO:werkzeug:127.0.0.1 - - [29/Jan/2025 20:49:57] "[35m[1mPOST /trade HTTP/1.1[0m" 500 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://172.19.0.1:5001
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+ERROR:root:Error placing order: Task <Task pending name='Task-1' coro=<AsyncToSync.main_wrap() running at /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/asgiref/sync.py:331> cb=[_run_until_complete_cb() at /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/asyncio/base_events.py:181]> got Future <Future pending cb=[_chain_future.<locals>._call_check_cancel() at /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/asyncio/futures.py:389]> attached to a different loop
+INFO:werkzeug:127.0.0.1 - - [29/Jan/2025 20:52:52] "[35m[1mPOST /trade HTTP/1.1[0m" 500 -
